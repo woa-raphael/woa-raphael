@@ -69,7 +69,7 @@ sel par $
 ```cmd
 format quick fs=fat32 label="System"
 ```
-> Now add letter Y to the ESP partion
+> Now add letter Y to the ESP partition
 ```cmd
 assign letter y
 ```
@@ -85,7 +85,7 @@ sel par $
 ```cmd
 format quick fs=ntfs label=Windows
 ```
-> Now add letter X to the Windows partion
+> Now add letter X to the Windows partition
 ```cmd
 assign letter x
 ```
