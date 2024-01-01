@@ -106,9 +106,6 @@ dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
-> [!IMPORTANT]
-> There are 2 methods of installing drivers, using driverupdater (continue reading) or using [DISM](/guide/dism.md)
-
 
 > Put the right driverupdater.exe for your machine in the path where your command window is currently opened. For example if you are in C:\platform-tools, put the driverupdater there.
 
