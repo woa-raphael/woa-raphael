@@ -13,8 +13,8 @@
 > This will also disable charging (not that you would want to charge in Windows anyways)
 
 ### Prerequisites
-- [This registry file](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael-usb/USB-OTG_ON.reg) 
-- [This batch script](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael-usb/OTG.and.Charge.switcher.bat)
+- [This registry file](https://github.com/n00b69/woa-raphael-1/releases/download/USBhost/USB-OTG_ON.reg) 
+- [This batch script](https://github.com/n00b69/woa-raphael-1/releases/download/USBhost/OTG.and.Charge.switcher.bat)
 
 ##### Running tbe scripts
  - Run the .reg file you just downloaded on your phone, click yes.
