@@ -13,7 +13,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Parted](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael/parted)
+- [Parted](https://github.com/n00b69/woa-raphael-1/releases/tag/Scripts)
 
 ### Notes
 > [!WARNING]  
