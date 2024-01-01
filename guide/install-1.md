@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On A Redmi 9T Pro">
+<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 running on raphael">
 
 
 # Running Windows on the Redmi K20 Pro / Mi 9T Pro
@@ -9,11 +9,11 @@
 
 ### Prerequisites
 - A brain (most important of all)
-- [Raphael TWRP 3.7.0_9](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael/twrp-3.7.0_9-0-raphael.img)
+- [Raphael TWRP 3.7.0_9](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Parted](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael/parted)
+- [Parted](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/parted)
 
 ### Notes
 > [!WARNING]  
@@ -38,7 +38,7 @@
 ##### Flash TWRP recovery
 > Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
-fastboot flash recovery path\to\twrp-3.7.0_9-0-raphael.img reboot recovery
+fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
 > [!IMPORTANT]
