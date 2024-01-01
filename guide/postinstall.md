@@ -16,6 +16,7 @@
 - [This registry file](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael-usb/USB-OTG_ON.reg) 
 - [This batch script](https://github.com/graphiks/Port-Windows-11-Raphael/releases/download/raphael-usb/OTG.and.Charge.switcher.bat)
 
+##### Running tbe scripts
  - Run the .reg file you just downloaded on your phone, click yes.
  - Run the batch script that you just downloaded on your phone. Select option 1 <br>
 (Re-run the batch script and select 2 if you want charging back)
