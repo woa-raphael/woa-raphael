@@ -6,6 +6,7 @@
 ## Uninstallation
 > [!WARNING]
 > DO NOT RUN ANY OF THESE COMMANDS, THIS GUIDE IS A COPY-PASTED PLACEHOLDER FOR A DIFFERENT DEVICE AND IS SUBJECT TO CHANGE (it will probably brick your phone)
+
 > [!IMPORTANT]
 > Really, don't use this guide
 
