@@ -20,7 +20,6 @@ The project is in development. Expect some driver updates in the near future.
 - [ ] Charging ```VERY slow```
 - [x] Display
 - [x] GPU ```GPU Crashes Windows around 30mins in ```
-- [ ] SD ```Takes several attempts to be recognized and is very unstable```
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
