@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/65c0ee06045c13d1ef0f5f88aa687c50274ef7f5/raphael.png" width="350" alt="Windows 11 running on raphael">
+<img align="right" src="" width="350" alt="Windows 11 running on raphael">
 
 
 # Running Windows on the Xiaomi 9T Pro / Redmi K20 Pro
