@@ -11,9 +11,9 @@
 
 - [Windows on ARM64 image creator](https://uupdump.net/)
 - [Alternatively a prebuilt esd](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link)
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/tag/raphael2)
+- [UEFI image](https://github.com/n00b69/woa-raphael-1/releases/tag/UEFI)
 - [Drivers](https://github.com/n00b69/woa-raphael-1/releases/tag/Drivers)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
+- [DriverUpdater (use 1.9.0.0)](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
 - [Msc script](https://github.com/n00b69/woa-raphael-1/releases/tag/Scripts)
 - [TWRP](https://dl.twrp.me/raphael/twrp-3.7.0_9-0-raphael.img.html) (should already be installed)
 
