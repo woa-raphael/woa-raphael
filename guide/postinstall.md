@@ -16,7 +16,7 @@
 - [This registry file](https://github.com/n00b69/woa-raphael-1/releases/download/USBhost/USB-OTG_ON.reg) 
 - [This batch script](https://github.com/n00b69/woa-raphael-1/releases/download/USBhost/OTG.and.Charge.switcher.bat)
 
-##### Running tbe scripts
+##### Running the scripts
  - Run the .reg file you just downloaded on your phone, click yes.
  - Run the batch script that you just downloaded on your phone. Select option 1 <br>
 (Re-run the batch script and select 2 if you want charging back)
