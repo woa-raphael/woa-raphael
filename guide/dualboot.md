@@ -17,9 +17,7 @@
 
 - [UEFI image](https://github.com/graphiks/woa-raphael/releases/tag/raphael2)
 
-- [WOA Helper app](https://github.com/graphiks/woa-raphael/raw/main/woa-helper-raphael.apk)
-
-- [StA Installer](https://github.com/graphiks/woa-raphael/raw/main/StA_Installer_raphael.exe)
+- [WOA Helper app & StA Installer]([https://github.com/graphiks/woa-raphael/raw/main/woa-helper-raphael.apk](https://github.com/n00b69/woa-raphael-1/releases/tag/Switcher))
 
 
 ## Method 1 - root required
