@@ -15,7 +15,7 @@
 
 - [TWRP](https://dl.twrp.me/raphael/twrp-3.7.0_9-0-raphael.img.html)
 
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/tag/raphael2)
+- [UEFI image](https://github.com/n00b69/woa-raphael-1/releases/tag/UEFI)
 
 - [WOA Helper app & StA Installer](https://github.com/n00b69/woa-raphael-1/releases/tag/Switcher)
 
