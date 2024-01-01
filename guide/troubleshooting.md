@@ -1,7 +1,7 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/65c0ee06045c13d1ef0f5f88aa687c50274ef7f5/raphael.png" width="350" alt="Windows 11 Running On A Redmi 9T Pro">
+<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
 
 
-# Running Windows on the Redmi K20 Pro / Mi 9T Pro
+# Running Windows on the Mi 9T Pro / Redmi K20 Pro 
 
 ## Troubleshooting Issues
 
@@ -12,10 +12,16 @@
 > Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
 
 ## USB does not work
-Enable USB host mode using the optional [post install guide](postinstall.md)
+Enable USB host mode using the optional [post install guide](postinstall.md).
 
 ## Restoring the WiFi drivers
-The wifi drivers are disabled due to some instabilities, altough they aren't that frequent and does not bother me. To reenable them, (assuming you have reached the Windows desktop) copy over the driver files to your windows partition (by using mass storage mode or some other way), then in the Windows desktop, go to the driver folder, then inside of it navigate to the following directory: components/QC8150/Device/Raphael/DEVICE.SOC_QC8150.RAPHAEL/Extensions/Subsystems/. From within that folder find a file called "raphael_subextscss.inf_". Rename that file to remove the "_" at the end. Open Device Manager. Click on the "Add drivers" button at the top (should be the 6th icon). Click on "Browse". Navigate to the previous folder and select the .inf file you have just renamed. Windows will install the wifi driver, then reboot. Wifi should now be working.
+- Copy the raphael drivers over to your device (preferably on the desktop)
+- Open the raphael drivers folder
+- Navigate to raphael-drivers-main\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems\
+- Rename "raphael_subextmpss.inf_" to "raphael_subextmpss.inf"; and right click on it and press Install (accept the driver signature popup)
+- Rename "raphael_subextscss.inf_" to "raphael_subextscss.inf"; also right click on it and press Install
+#### Finished!
+
 
 ## DISM Error:87 The add-driver option is unkown
 This usually means that you have an unclean Windows image with some other drivers. You need to get a clean Windows image, like the one in [this Google drive link](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link). Use 22h2, because touch appears to be broken in 23h2.
