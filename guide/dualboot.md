@@ -15,7 +15,7 @@
 
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 
-- [UEFI image]https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img()
+- [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
 
 - [WOA Helper app](https://github.com/graphiks/woa-raphael/raw/main/woa-helper-raphael.apk)
 
