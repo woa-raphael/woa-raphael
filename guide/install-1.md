@@ -9,7 +9,7 @@
 
 ### Prerequisites
 - A brain (most important of all)
-- [Raphael TWRP 3.7.0_9](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img)
+- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
