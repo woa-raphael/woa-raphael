@@ -14,7 +14,7 @@ The project is in development. Expect some driver updates in the near future.
 - [X] Audio 
 - [ ] Battery status
 - [x] Bluetooth
-- [ ] Brightness ```Driver is there; but currently needs reconfiguring```
+- [ ] Brightness 
 - [ ] Camera
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```VERY slow```
