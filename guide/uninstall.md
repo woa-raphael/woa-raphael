@@ -4,8 +4,6 @@
 # Running Windows on the Redmi K20 Pro / Mi 9T Pro
 
 ## Uninstallation
-> [!WARNING]
-> DO NOT RUN ANY OF THESE COMMANDS, THIS GUIDE IS A COPY-PASTED PLACEHOLDER FOR A DIFFERENT DEVICE AND IS SUBJECT TO CHANGE (it will probably brick your phone)
 
 ### Why is this needed?
 If you want to uninstall windows this is used instead of deleting partitions manually to avoid human error + writing a whole dedicated guide to just uninstalling.
