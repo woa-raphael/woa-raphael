@@ -26,7 +26,7 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
 ##### Pushing the msc script
-Extract the msc.sh and put it in the platform-tools folder, then run:
+Put msc.sh in the platform-tools folder, then run:
 ```cmd
 adb push msc.sh /
 ```
