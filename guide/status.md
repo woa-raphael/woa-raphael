@@ -19,7 +19,7 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```VERY slow```
 - [x] Display
-- [x] GPU 
+- [x] GPU  ```Some artifacting due to lack of DSC```
 - [ ] SD ```There isn't even a SD card slot lol```
 - [x] Touchscreen ```Not working in 23H2; Will be fixed very soon```
 - [x] UFS
