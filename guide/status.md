@@ -21,7 +21,7 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Display
 - [x] GPU 
 - [ ] SD ```There isn't even a SD card slot lol```
-- [x] Touchscreen ```Broken in 23h2```
+- [x] Touchscreen ```Not working in 23H2; Will be fixed very soon```
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi ```MAJOR issues; if enabled, will crash Windows every 30mins or so!```
