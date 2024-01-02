@@ -8,11 +8,11 @@
 > This guide is used whenever you want to update or change your windows and / or driver installation.
 
 ### Prerequisites
-- [TWRP](https://dl.twrp.me/raphael/twrp-3.7.0_9-0-raphael.img.html) (should already be installed)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0)
-- [Drivers]() EDIT THIS
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/tag/raphael2)
-- [Msc script](https://cdn.discordapp.com/attachments/1148093151744118816/1158416286703943840/surfaceduo1-msc.tar)
+- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) (must use v1.9.0.0)
+- [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-Drivers-main.zip)
+- [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
+- [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
 
 ## Reinstalling Windows
 > [!IMPORTANT]
@@ -25,7 +25,7 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
 ##### Pushing the msc script
-Extract the msc.sh and put it in the platform-tools folder, then run:
+Put msc.sh in the platform-tools folder, then run:
 ```cmd
 adb push msc.sh /
 ```
