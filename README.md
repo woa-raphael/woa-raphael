@@ -31,7 +31,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Reinstall instructions](guide/reinstall.md)
 
-- [Uninstall instructions](guide/uninstall.md) NEEDS TO BE CHANGED
+- [Uninstall instructions](guide/uninstall.md)
 
 ## Contributors
 
