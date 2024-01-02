@@ -125,6 +125,9 @@ bcdboot X:\Windows /s Y: /f UEFI
 cd Y:\EFI\Microsoft\Boot
 ```
 ```cmd
+Y:
+```
+```cmd
 bcdedit /store BCD /set "{default}" testsigning on
 ```
 ```cmd
