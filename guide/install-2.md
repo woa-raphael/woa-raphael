@@ -15,7 +15,7 @@
  [Alternatively, a ready-to-go ESD](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link) 
 - [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
 - [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-Drivers-main.zip)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) (must ise v1.9.0.0)
 - [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 
@@ -106,7 +106,6 @@ dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
-
 > Put the right driverupdater.exe for your machine in the path where your command window is currently opened. For example if you are in C:\platform-tools, put the driverupdater there.
 
 > Replace `path\to` with the actual location of the drivers folder
@@ -193,7 +192,7 @@ Your device will now set up Windows. This will take some time. It will eventuall
 
 ## Setting up Windows
 > [!IMPORTANT]
-> USB will not work except if you have a powered USB hub. We can fix this after we get into the desktop.
+> USB will not work unless you have a powered USB hub. We can fix this after we get into the desktop.
 
 Before continuing with setup, open the accessibility menu in the bottom right corner and enable the on-screen keyboard, then tap FN+SHIFT + F10 (if it ask you to tap somewhere to type just tap the background) which will open a command prompt, in which you will need to type:
 ```cmd
@@ -205,7 +204,7 @@ bypassnro.cmd
 ```
 Your device will now reboot. Continue setup as normal. Make sure to press the "I don't have internet" button when you reach the **Let's connect you to a network** section.
 
-If you want USB working read this [post install guide](postinstall.md).
+If you want USB working, enable USB host through the guide in the [post install page](postinstall.md).
 
 
 ## [Next step: Setting up dualboot](/guide/dualboot.md)
