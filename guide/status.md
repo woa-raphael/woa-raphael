@@ -12,7 +12,7 @@ The project is in development. Expect some driver updates in the near future.
 #### Features
 
 - [X] Audio 
-- [ ] Battery status
+- [ ] Battery status ```Appears to burn the PMIC, disabled and in need of further testing```
 - [x] Bluetooth
 - [ ] Brightness ```Driver is there; but currently needs reconfiguring```
 - [ ] Camera
@@ -32,12 +32,12 @@ The project is in development. Expect some driver updates in the near future.
 - [ ] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
-- [ ] Magnetometer
 - [ ] Proximity
 
 #### Security
 
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
 - [ ] TPM (Software Backed)
+- [ ] Secure boot ```W.I.P```
 
 
