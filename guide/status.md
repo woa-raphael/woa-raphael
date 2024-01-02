@@ -19,12 +19,12 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```VERY slow```
 - [x] Display
-- [x] GPU ```GPU Crashes Windows around 30mins in ```
+- [x] GPU 
 - [ ] SD ```There isn't even a SD card slot lol```
 - [x] Touchscreen ```Broken in 23h2```
 - [x] UFS
 - [x] USB
-- [x] Wi-Fi
+- [x] Wi-Fi ```MAJOR issues; if enabled, will crash Windows every 30mins or so!```
 
 #### Sensors
 - [ ] Accelerometer
