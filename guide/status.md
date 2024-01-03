@@ -12,7 +12,7 @@ The project is in development. Expect some driver updates in the near future.
 #### Features
 
 - [X] Audio 
-- [ ] Battery status
+- [X] Battery status```Rumors have spread that say it might fry your PMIC```
 - [x] Bluetooth
 - [ ] Brightness 
 - [ ] Camera
