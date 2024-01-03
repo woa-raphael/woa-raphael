@@ -17,9 +17,9 @@
 
 - [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
 
-- [WOA Helper app](https://github.com/graphiks/woa-raphael/raw/main/woa-helper-raphael.apk)
+- [WOA Helper app](https://github.com/graphiks/woa-raphael/releases/download/raphael-dualboot/woa-helper-raphael.apk)
 
-- [StA Installer](https://github.com/graphiks/woa-raphael/raw/main/StA_Installer_raphael.exe)
+- [StA Installer](https://github.com/graphiks/woa-raphael/releases/download/raphael-dualboot/StA_Installer_raphael.exe)
 
 
 ## Method 1 - root required
