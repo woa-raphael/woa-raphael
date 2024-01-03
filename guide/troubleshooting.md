@@ -22,9 +22,12 @@ Enable USB host mode using the optional [post install guide](postinstall.md).
 - Rename "raphael_subextscss.inf_" to "raphael_subextscss.inf"; also right click on it and press Install
 #### Finished!
 
+## "You'll need a new app to open this windowsdefender link" error
+This means that your image, likely created with uupdump, is broken. Reinstall Windows using a clean image, like the one in [this Google drive link](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link). Don't forget that touch is broken in 23h2, so use 22h2.
+
 
 ## DISM Error:87 The add-driver option is unkown
-This usually means that you have an unclean Windows image with some other drivers. You need to get a clean Windows image (which means you didn't follow instructions). Don't forget that touch is broken in 23h2 (use 22h2).
+This usually means that you have an unclean Windows image with some other drivers, likely because you didn't follow the instructions. You will need to reinstall Windows using a clean image. Don't forget that touch is broken in 23h2, so use 22h2.
 
 ## 0xc000021a BSOD
 This usually means that winlogon.exe has failed, and you may need to reapply the Windows image.
