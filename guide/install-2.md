@@ -198,7 +198,7 @@ Your device will now set up Windows. This will take some time. It will eventuall
 > [!IMPORTANT]
 > USB will not work except if you have a powered USB hub. We can fix this after we get into the desktop.
 
-Before continuing with setup, open the accessibility menu in the bottom right corner and enable the on-screen keyboard, then tap FN+SHIFT + F10 (if it ask you to tap somewhere to type just tap the background) which will open a command prompt, in which you will need to type:
+Before continuing with setup, open the accessibility menu in the bottom right corner and enable the on-screen keyboard, then tap FN+SHIFT + F10 (if it asks you to tap somewhere to type just tap the background) which will open a command prompt, in which you will need to type:
 ```cmd
 cd oobe
 ```
