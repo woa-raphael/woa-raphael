@@ -1,5 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 running on raphael">
 
+<img align="right" src="https://cdn.discordapp.com/attachments/546427343045132298/1192471312518615090/Screenshot_2024-01-04_15-09-34.png">
 
 # Running Windows on the Xiaomi 9T Pro / Redmi K20 Pro
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woaraphael)
