@@ -24,7 +24,7 @@ Enable USB host mode using the optional [post install guide](postinstall.md).
 
 
 ## DISM Error:87 The add-driver option is unkown
-This usually means that you have an unclean Windows image with some other drivers. You need to get a clean Windows image (which means you didn't follow instructions). Don't forget that touch is broken in 23h2 (use 22h2).
+This usually means that you have an unclean Windows image with some other drivers. You need to get a clean Windows image (which means you didn't follow instructions).
 
 ## 0xc000021a BSOD
 This usually means that winlogon.exe has failed, and you may need to reapply the Windows image.
