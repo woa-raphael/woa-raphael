@@ -9,8 +9,6 @@
 
 ### Prerequisites
 
-> [!IMPORTANT]
-> Do NOT download 23H2; Otherwise touch will not work! Download 22H2 instead.
 - [Windows on ARM64 image creator](https://uupdump.net/) |
  [Alternatively, a ready-to-go ESD](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link) 
 - [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
