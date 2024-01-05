@@ -105,11 +105,10 @@ dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
 
 ##### Installing Drivers
 
-> Put the right driverupdater.exe for your machine in the path where your command window is currently opened. For example if you are in C:\platform-tools, put the driverupdater there.
+> Put driverupdater.exe in the same folder as your drivers folder
 
-> Replace `path\to` with the actual location of the drivers folder
 ```cmd
-DriverUpdater.exe -p X: -d path\to\raphael-Drivers-main\definitions\Desktop\ARM64\Internal\raphael.txt -r .
+DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.txt -r .
 ```
   
 ##### Create Windows bootloader files
