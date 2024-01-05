@@ -21,7 +21,7 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Display
 - [x] GPU  ```Some artifacting due to lack of DSC```
 - [ ] SD ```There isn't even a SD card slot lol```
-- [x] Touchscreen ```Not working in 23H2; Will be fixed very soon```
+- [x] Touchscreen 
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
