@@ -14,7 +14,7 @@ The project is in development. Expect some driver updates in the near future.
 - [X] Audio 
 - [X] Battery status```Rumors say it might fry your PMIC```
 - [x] Bluetooth
-- [ ] Brightness 
+- [x] Brightness 
 - [ ] Camera
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```VERY slow```
