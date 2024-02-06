@@ -85,6 +85,7 @@ resizepart $
 End? [122GB]? 32GB
 ```
 Note: 122GB is parted telling us the maximum end value we can select.
+> If it asks you if you are okay with data loss, type yes and hit enter
 
 ##### Checking free space
 ```cmd
