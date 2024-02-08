@@ -97,7 +97,7 @@ exit
 > Replace `path\to\install.wim` with the actual path to install.wim.
 
 > If you are using an ISO file, it is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
-> Alternatively, use one of the install.esd files from the Google Drive at the top of this page. Touch doesn't seem to work on 23h2, so use 22h2.
+> Alternatively, use one of the install.esd files from the Google Drive at the top of this page.
 
 ```cmd
 dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
