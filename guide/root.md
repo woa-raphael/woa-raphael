@@ -29,4 +29,9 @@ Use the TWRP backup feature to make a backup of the boot partition.
 
 Your phone will now reboot, and you have succesfully rooted it.
 
+> [!IMPORTANT]
+> After you've rooted your phone, create a new boot.img backup in Android and in Windows (using the WOA Helper app) and remove any remaining boot.img backups you have made previously. If you don't do this, switching to Android will unroot your phone.
+> 
+> After updating or changing your rom (and rerooting) you will have to repeat all the steps on this page.
+
 ## Finished!
