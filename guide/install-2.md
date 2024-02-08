@@ -203,6 +203,8 @@ After that, type:
 ```cmd
 bypassnro.cmd
 ```
+> This command will skip the Microsoft Account requirement.
+> 
 Your device will now reboot. Continue setup as normal. Make sure to press the "I don't have internet" button when you reach the **Let's connect you to a network** section.
 
 If you want USB working read this [post install guide](postinstall.md).
