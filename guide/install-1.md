@@ -76,6 +76,8 @@ print
 
 ##### Resizing userdata
 > Replace $ with the number of the userdata partition
+>
+> If it asks you if you are okay with data loss, type yes
 ```cmd
 resizepart $
 ```
