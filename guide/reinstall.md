@@ -8,6 +8,7 @@
 > This guide is used whenever you want to update or change your windows and / or driver installation.
 
 ### Prerequisites
+- [Windows ARM64 ESD](https;//worproject.com/esd)
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) (must use v1.9.0.0)
 - [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-drivers.zip)
@@ -101,13 +102,14 @@ exit
 ## Installing Windows
 > Skip this step if you are only reinstalling/updating drivers
 
-> Replace `path\to\install.wim` with the actual path to install.wim.
+> Replace `path\to\install.esd` with the actual path to install.esd.
 
-> If you are using an ISO file, it is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
-> Alternatively, use one of the install.esd files from the Google Drive at the top of this page. Touch doesn't seem to work on 23h2, so use 22h2.
+> If you are using an ISO file, the image file is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
+
+> Replace `index:6` with `index:1` if your image is not from the link in this guide.
 
 ```cmd
-dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
