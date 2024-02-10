@@ -94,11 +94,6 @@ exit
 
 ## Installing Windows
 > Replace `path\to\install.esd` with the actual path to install.esd.
-
-> If you are using an ISO file, the image file is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
-
-> Replace `index:6` with `index:1` if your image is not from the link in this guide.
-
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
