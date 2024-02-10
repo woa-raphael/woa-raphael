@@ -27,10 +27,10 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Wi-Fi
 
 #### Sensors
-- [ ] Accelerometer
+- [x] Accelerometer
 - [ ] Fingerprint
 - [ ] GPS
-- [ ] Gyroscope
+- [x] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
