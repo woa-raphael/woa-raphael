@@ -9,8 +9,7 @@
 
 ### Prerequisites
 
-- [Windows on ARM64 image creator](https://uupdump.net/) |
- [Alternatively, a ready-to-go ESD](https://drive.google.com/drive/folders/1JEC2QhFTyZhnm4qdzeFANTmeqoDCbS1I?usp=drive_link) 
+- [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
 - [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-drivers.zip)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
@@ -94,13 +93,14 @@ exit
 ```
 
 ## Installing Windows
-> Replace `path\to\install.wim` with the actual path to install.wim.
+> Replace `path\to\install.esd` with the actual path to install.esd.
 
-> If you are using an ISO file, it is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
-> Alternatively, use one of the install.esd files from the Google Drive at the top of this page.
+> If you are using an ISO file, the image file is located in the sources folder inside the ISO. Mount the ISO with Windows Explorer and then copy the path to it.
+
+> Replace `index:6` with `index:1` if your image is not from the link in this guide.
 
 ```cmd
-dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
