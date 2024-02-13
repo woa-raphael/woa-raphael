@@ -41,11 +41,12 @@ The project is in development. Expect some driver updates in the near future.
 - [ ] TPM (Software Backed)
 
 #### Panels
-- [x] Samsung-fhd-ea8076-f1mp-cmd ```Main support```
-- [x] Samsung-fhd-ea8076-f1p2-cmd ```Slightly different to f1mp but still usable```
-- [ ] Samsung-fhd-ea8076-f1p2_2-cmd ```Not tested```
-- [ ] Samsung-fhd-ea8076-f1-cmd ```Not tested```
-- [ ] Samsung-fhd-ea8076-cmd ```Not tested```
+- [x] dsi_ss_fh_ea8076_global_cmd ```Main support, most common```
+- [x] samsung-fhd-ea8076-f1mp-cmd ```Main support```
+- [x] samsung-fhd-ea8076-f1p2-cmd ```Slightly different to f1mp but still usable```
+- [ ] samsung-fhd-ea8076-f1p2_2-cmd ```Not tested```
+- [ ] samsung-fhd-ea8076-f1-cmd ```Not tested```
+- [ ] samsung-fhd-ea8076-cmd ```Not tested```
 
 
 
