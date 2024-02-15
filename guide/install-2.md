@@ -64,7 +64,7 @@ sel par $
 ```
 
 ##### Formatting the ESP partition
-> This will format ESP to fat32
+> This will format ESP to FAT32
 ```cmd
 format quick fs=fat32 label="System"
 ```
