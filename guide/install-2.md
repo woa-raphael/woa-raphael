@@ -48,6 +48,8 @@ diskpart
 lis dis
 ```
 > This will show all available disks. Find the disk number of your phone and replace it with "$" in the command below
+
+> (it will probably show as 0 B free)
 ```cmd
 sel dis $
 ```
