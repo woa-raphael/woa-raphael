@@ -20,7 +20,6 @@ The project is in development. Expect some driver updates in the near future.
 - [ ] Charging ```VERY slow```
 - [x] Display
 - [x] GPU  ```Some artifacting due to lack of DSC```
-- [ ] SD ```There isn't even a SD card slot lol```
 - [x] Touchscreen 
 - [x] UFS
 - [x] USB
