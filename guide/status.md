@@ -19,7 +19,7 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
 - [ ] Charging ```VERY slow```
 - [x] Display
-- [x] GPU  ```Some artifacting due to lack of DSC```
+- [x] GPU  ```Some artifacting due to lack of CMD```
 - [x] Touchscreen 
 - [x] UFS
 - [x] USB
