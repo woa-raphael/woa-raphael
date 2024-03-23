@@ -10,7 +10,7 @@
 ### Prerequisites
 
 - [Windows on ARM image](https://worproject.com/esd)
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
+- [UEFI image](https://github.com/woa-raphael/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael_NOSB.img)
 - [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-drivers.zip) |
   [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
 - [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
@@ -172,7 +172,7 @@ adb reboot recovery
 ```
 
 ##### Push the UEFI to your phone
-> Drag and drop the UEFI (xiaomi-raphael.img) to your phone
+> Drag and drop the UEFI (xiaomi-raphael_NOSB.img) to your phone
 
 ##### Back up your Android boot image
 Use the TWRP backup feature to backup your Android boot image. Name this backup "Android"
