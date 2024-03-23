@@ -15,7 +15,7 @@
 
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
+- [UEFI image](https://github.com/woa-raphael/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael_NOSB.img)
 
 - [WOA Helper app](https://github.com/graphiks/woa-raphael/releases/download/raphael-dualboot/woa-helper-raphael.apk)
 
@@ -59,7 +59,7 @@ This guide assumes you are rooted, if you aren't, please follow [this guide](roo
 - Boot to TWRP and back up your Android boot image using the Backup button.
 > Name this backup "Android"
 
-- Flash the Windows UEFI (xiaomi-raphael.img) to the boot partition, then make another backup of your boot image.
+- Flash the Windows UEFI (xiaomi-raphael_NOSB.img) to the boot partition, then make another backup of your boot image.
 > Name this backup "Windows"
 
 ##### Switching between Android and Windows
