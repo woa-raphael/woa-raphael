@@ -3,8 +3,6 @@
 
 # Running Windows on the  Mi 9T Pro / Redmi K20 Pro 
 
-## Installation
-
 ## Installing Windows
 
 ### Prerequisites
@@ -21,10 +19,10 @@
 fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
-##### Pushing the msc script
-Put msc.sh in the platform-tools folder, then run:
+#### Running the msc script
+> Put msc.sh in the platform-tools folder, then run:
 ```cmd
-adb push msc.sh /
+adb push msc.sh / && adb shell sh msc.sh
 ```
 
 ##### Running the msc script
@@ -107,27 +105,24 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.txt -r .
 ```
   
-##### Create Windows bootloader files
+#### Create Windows bootloader files
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-###### Configuring bootloader files
-> Run these 4 commands seperately
+#### Configure bootloader files
 ```cmd
-cd Y:\EFI\Microsoft\Boot
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
+
+#### Disabling recovery
 ```cmd
-Y:
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 ```
+
+#### Disabling integrity checks
 ```cmd
-bcdedit /store BCD /set "{default}" testsigning on
-```
-```cmd
-bcdedit /store BCD /set "{default}" nointegritychecks on
-```
-```cmd
-bcdedit /store BCD /set "{default}" recoveryenabled no
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 ## Unassign disk letters
