@@ -3,8 +3,6 @@
 
 # Running Windows on the  Mi 9T Pro / Redmi K20 Pro 
 
-## Installation
-
 ## Installing Windows
 
 ### Prerequisites
@@ -21,15 +19,10 @@
 fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
-##### Pushing the msc script
-Put msc.sh in the platform-tools folder, then run:
+##### Running msc
+> Put msc.sh in the platform-tools folder, then run:
 ```cmd
-adb push msc.sh /
-```
-
-##### Running the msc script
-```cmd
-adb shell sh msc.sh
+adb push msc.sh / && adb shell sh msc.sh
 ```
 
 ## Diskpart
