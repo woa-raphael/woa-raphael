@@ -11,7 +11,7 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image](https://github.com/woa-raphael/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael_NOSB.img)
-- [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-drivers.zip) and [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
+- [Drivers](https://github.com/woa-raphael/raphael-drivers/releases/tag/1.1) and [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases) 
 - [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 
