@@ -97,7 +97,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > Put driverupdater.exe in the same folder as your drivers folder
 
 ```cmd
-DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.txt -r .
+DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.xml -r .
 ```
   
 ##### Create Windows bootloader files
