@@ -76,9 +76,9 @@ resizepart $
 > Parted will now ask you for the end value.
 > You can choose the size you want, as long as it is lower than the value it provides to you. In this example we resize it to 32GB
 ```cmd
-End? [122GB]? 32GB
+End? [121GB]? 32GB
 ```
-Note: 122GB is parted telling us the maximum end value we can select.
+Note: 121GB is parted telling us the maximum end value we can select.
 
 ##### Checking free space
 ```cmd
@@ -103,7 +103,7 @@ set $ esp on
 
 > 32.5GB in this example is the end of ESP, replace this with your actual value accordingly as well
 ```cmd
-mkpart win ntfs 32.5GB 122GB
+mkpart win ntfs 32.5GB 1221B
 ```
 
 ##### Exit parted
