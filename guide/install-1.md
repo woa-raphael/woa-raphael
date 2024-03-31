@@ -99,7 +99,7 @@ set $ esp on
 ```
 
 ##### Creating Windows partition
-> In this example 122GB is the end value of your phone's total storage. Replace this with the actual end value you see when executing "p free"
+> In this example 121GB is the end value of your phone's total storage. Replace this with the actual end value you see when executing "p free"
 
 > 32.5GB in this example is the end of ESP, replace this with your actual value accordingly as well
 ```cmd
