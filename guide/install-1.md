@@ -93,7 +93,7 @@ p free
 mkpart esp fat32 32GB 32.5GB
 ```
 
-> Replace "$" with your ESP partition number, usually 30 or 31
+> Replace "$" with your ESP partition number, usually 32
 ```cmd
 set $ esp on
 ```
