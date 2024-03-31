@@ -9,7 +9,7 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image](https://github.com/woa-raphael/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael_NOSB.img)
-- [Drivers](https://github.com/woa-raphael/raphael-drivers/releases/tag/1.1) and [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases) 
+- [Drivers](https://github.com/woa-raphael/raphael-drivers/releases/tag/1.1)
 - [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
 - [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
 
@@ -94,7 +94,6 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 ##### Installing Drivers
 
-> Put driverupdater.exe in the same folder as your drivers folder
 
 ```cmd
 DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.xml -r .
