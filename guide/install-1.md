@@ -110,7 +110,7 @@ mkpart win ntfs 32.5GB 1221B
 ```cmd
 quit
 ```
-
+> Ignore "Information: You may need to update /etc/fstab."
 ##### Formatting data
 Format all data in TWRP, or Android will not boot.
 ( Go to Wipe > Format data > type yes )
